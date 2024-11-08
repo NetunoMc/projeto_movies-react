@@ -1,0 +1,31 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.movies-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies-nav-content h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .movies-nav-content a {
+    text-decoration: none;
+  }
+  .movies-repository-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: var(--text-color);
+  }
+
+.movies-repository-container {
+    display: flex;
+    align-items: center;
+}
